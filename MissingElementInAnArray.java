@@ -16,7 +16,7 @@ public class MissingElementInAnArray {
 			if (i != arr[counter]) {
 				System.out.println("Missing Element in Array is : " + i);
 				i++;
-//				break;
+				break;
 			}
 			counter++;
 		}
